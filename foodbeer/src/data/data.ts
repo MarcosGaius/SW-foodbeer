@@ -21,8 +21,8 @@ export const restaurants = {
       },
     ],
   },
-  e10tapHouse: {
-    logo: "/logos/e-10-tap-house.png",
+  beiraRio: {
+    logo: "/logos/beirario.png",
     menu: [
       {
         name: "Stella + Linguiça campeira na brasa",
