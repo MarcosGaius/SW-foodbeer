@@ -32,7 +32,7 @@ export const Page = ({ slug, color }: PageProps) => {
     <>
       <header className={cn("p-4 flex justify-center items-center bg-amber-400", color)}>
         <span className="text-3xl font-bold">
-          <Image src={restaurant.logo} width={50} height={50} />
+          <Image src={restaurant.logo} alt="Logo" width={50} height={50} />
         </span>
       </header>
       <main className="max-w-[1440px] mx-auto">
