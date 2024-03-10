@@ -1,52 +1,47 @@
-export const data = [
-  {
-    name: "Combinação Cerveja + Picanha",
-    img: "https://circuitodoouro.tur.br/wp-content/uploads/2017/07/77842-harmonizacao-de-cervejas-4-sugestoes-para-acompanhar-pratos-mineiros.jpg ",
-    description: "A cerveja combina com a picanha. Ideal para quem quer uma harmonização mais completa.",
+export const restaurants = {
+  curt: {
+    logo: "/logos/curt.webp",
+    menu: [
+      {
+        name: "Cerveja Spaten + BOLINHO LINGUIÇA BLUMENAU, FISH AND CHIPS",
+        img: "/products/curt-bolinho.png",
+        description: "Cerveja Spaten + BOLINHO LINGUIÇA BLUMENAU, FISH AND CHIPS",
+      },
+      {
+        name: "Corona + ARANCINI DE CAMARÃO, CAMARÃO EMPANADO, PASTELZINHO DE CAMARÃO",
+        img: "/products/curt-camarao.png",
+        description:
+          "A Corona, com seu toque cítrico, realça o sabor do camarão nos pratos Arancini, Camarão Empanado e Pastelzinho, equilibrando a gordura do empanado.        ",
+      },
+      {
+        name: "Stella Artois - Franguinho, TÁBUA DE FRIOS",
+        img: "/products/curt-tabua.png",
+        description:
+          "A Stella Artois, com seu sabor limpo e acabamento nítido, harmoniza bem com franguinho e tábua de frios, destacando os sabores sem sobrecarregar o paladar.",
+      },
+    ],
   },
-  {
-    name: "Harmonia IPA + Tacos de Carnitas",
-    img: "https://food-mag.co.uk/wp-content/uploads/2018/11/Carnitas-tacos.jpg",
-    description: "A explosão de lúpulo da IPA realça o sabor das carnitas. Uma combinação ousada e deliciosa.",
+  e10tapHouse: {
+    logo: "/logos/e-10-tap-house.png",
+    menu: [
+      {
+        name: "Stella + Linguiça campeira na brasa",
+        img: "/products/e10-linguica.png",
+        description:
+          "A cerveja Stella combina bem com linguiça campeira na brasa devido ao seu sabor maltado suave e leve amargura, que complementam os sabores defumados da linguiça. Sua carbonatação refrescante limpa o paladar entre as mordidas, proporcionando uma experiência equilibrada e refrescante.",
+      },
+      {
+        name: "Pantagonia + Entrecot na brasa",
+        img: "/products/e10-entrecot.png",
+        description:
+          "A cerveja Patagonia combina bem com entrecot na brasa devido ao seu sabor maltado e carbonatação moderada, que complementam os sabores intensos da carne grelhada. Sua leveza e frescor refrescam o paladar entre as mordidas, tornando-a uma escolha harmoniosa para acompanhar este prato.",
+      },
+      {
+        name: "Corona + Pulled balls (bolinhas de porco)",
+        img: "/products/e10-bolinho.png",
+        description:
+          "A cerveja Corona combina com pulled balls (bolinhas de porco) devido à sua leveza e refrescância, que complementam os sabores suculentos do porco desfiado. Sua carbonatação limpa o paladar entre as mordidas, proporcionando uma experiência equilibrada.        ",
+      },
+    ],
   },
-  {
-    name: "Sessão Stout + Brownie de Chocolate",
-    img: "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/25e034bf1aa57e9874c2aac4c0ad238a/Derivates/d094946302108a0a076ae8b383f19bb956d02097.jpg",
-    description: "A textura cremosa da stout complementa a doçura do brownie. Uma sobremesa indulgente e reconfortante.",
-  },
-  {
-    name: "Lager Refrescante + Frutos do Mar",
-    img: "https://cervejariaantuerpia.com.br/wp-content/uploads/2021/09/CERVEJA-E-FRUTOS-DO-MAR.jpg",
-    description: "A leveza da lager realça os sabores frescos dos frutos do mar. Uma opção perfeita para dias quentes.",
-  },
-  {
-    name: "Ale Amarga + Queijo Gorgonzola",
-    img: "https://lh3.googleusercontent.com/proxy/tYWrwMzJDcQJSSF-s_Lndmsq9aOXvrV8Jy_gdJH7bWe9JVrvyb59gSAcu-dsYpIinOQg2ZswbM05CL9jkh4jqzAWv2egV9anVbIWirwKkn53DGgvoJKJMh3et9ZtVryFupF4CzSChVvx53MztnVacYVE5TSf",
-    description: "A intensidade da ale amarga contrasta maravilhosamente com a cremosidade e sabor robusto do gorgonzola.",
-  },
-  {
-    name: "Trigo Belga + Waffle de Bruxelas",
-    img: "https://circuitodoouro.tur.br/wp-content/uploads/2017/07/77842-harmonizacao-de-cervejas-4-sugestoes-para-acompanhar-pratos-mineiros.jpg ",
-    description: "A suavidade do trigo belga complementa a textura leve e sabor único dos waffles de Bruxelas.",
-  },
-  {
-    name: "Saison de Verão + Salada de Folhas Verdes",
-    img: "https://circuitodoouro.tur.br/wp-content/uploads/2017/07/77842-harmonizacao-de-cervejas-4-sugestoes-para-acompanhar-pratos-mineiros.jpg ",
-    description: "A saison de verão realça os sabores frescos da salada, criando uma combinação leve e revigorante.",
-  },
-  {
-    name: "Pale Ale + Hambúrguer Clássico",
-    img: "https://circuitodoouro.tur.br/wp-content/uploads/2017/07/77842-harmonizacao-de-cervejas-4-sugestoes-para-acompanhar-pratos-mineiros.jpg ",
-    description: "A pale ale realça os sabores suculentos do hambúrguer, proporcionando uma experiência clássica e deliciosa.",
-  },
-  {
-    name: "Porter Encorpada + Churrasco de Costelas",
-    img: "https://circuitodoouro.tur.br/wp-content/uploads/2017/07/77842-harmonizacao-de-cervejas-4-sugestoes-para-acompanhar-pratos-mineiros.jpg ",
-    description: "A robustez da porter complementa perfeitamente a carne suculenta e defumada das costelas no churrasco.",
-  },
-  {
-    name: "Weissbier + Pretzel de Sal",
-    img: "https://circuitodoouro.tur.br/wp-content/uploads/2017/07/77842-harmonizacao-de-cervejas-4-sugestoes-para-acompanhar-pratos-mineiros.jpg ",
-    description: "A Weissbier acentua a crocância do pretzel, proporcionando uma combinação de sabores irresistível.",
-  },
-];
+};
